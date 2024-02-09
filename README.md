@@ -15,6 +15,7 @@ BEM (Block, Element, Modifier) is a methodology designed for developing web inte
 
 ```html
 <div class="error"></div>
+```
 
 
 ## Source
