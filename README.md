@@ -27,7 +27,6 @@ block-name
 ### Explanation
 
 - Integral part of a block that cannot be used separately.
-- Name structure: block-name__element-name.
 - Elements can be nested but cannot be elements of other elements.
 
 
@@ -48,7 +47,6 @@ block-name__element-name
 ### Explanation
 
 - Defines appearance, state, or behavior of a block or element.
-- Name structure: block-name_modifier-name or block-name__element-name--modifier-name.
 - Types: Boolean (presence implies true) and Key-value (important value).
 
 ### Name Structure
