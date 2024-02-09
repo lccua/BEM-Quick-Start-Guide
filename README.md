@@ -12,7 +12,9 @@ BEM (Block, Element, Modifier) is a methodology designed for developing web inte
 
 ### Naming Convention
 
-- block-name
+```bash
+block-name
+```
 
 ### Example
 
