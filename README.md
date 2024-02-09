@@ -53,9 +53,13 @@ block-name__element-name
 
 ### Name Structure
 
+#### Boolean
+
 ```bash
 block-name__element-name--modifier-name
 ```
+
+#### Key Value
 
 ```bash
 block-name__element-name--modifier-name--modifier-value
@@ -79,7 +83,7 @@ block-name__element-name--modifier-name--modifier-value
 ```
 
 ```html
-  <button class="search-form__button search-form__button_size_m">Search</button>
+<button class="search-form__button search-form__button_size_m">Search</button>
 ```
 
 ## Source
