@@ -83,7 +83,7 @@ block-name__element-name--modifier-name--modifier-value
 ```html
 <button class="search-form__button search-form__button--size--m">Search</button>
 ```
-##:exclamation: **Important Notice** :exclamation:
+## :exclamation: **Important Notice** :exclamation:
 
 ## Source
 - https://en.bem.info/methodology/quick-start/#introduction
