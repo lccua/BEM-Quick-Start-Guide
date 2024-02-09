@@ -10,7 +10,7 @@ BEM (Block, Element, Modifier) is a methodology designed for developing web inte
 - They are identified by the `class` attribute in HTML.
 - The block name should describe its purpose, not its appearance.
 
-### Naming Convention
+### Name Structure
 
 ```bash
 block-name
@@ -22,6 +22,25 @@ block-name
 <div class="error"></div>
 ```
 
+## Element
+
+### Explanation
+
+- Blocks are independent, reusable components, such as menus or buttons.
+- They are identified by the `class` attribute in HTML.
+- The block name should describe its purpose, not its appearance.
+
+### Name Structure
+
+```bash
+block-name__element-name
+```
+
+### Example
+
+```html
+<input class="search-form__input">
+```
 
 ## Source
 - https://en.bem.info/methodology/quick-start/#introduction
