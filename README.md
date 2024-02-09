@@ -22,6 +22,11 @@ block-name
 <div class="error"></div>
 ```
 
+```html
+<form class="search-form">
+```
+
+
 ## Element
 
 ### Explanation
