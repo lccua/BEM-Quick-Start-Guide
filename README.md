@@ -63,24 +63,23 @@ block-name__element-name--modifier-name--modifier-value
 
 ### Example
 #### Boolean
-
-#### Important Value
-
-
 ```html
-search-form--theme--lite (theme = modifier-name | islands = modifier-value)
+<form class="search-form search-form_focused">
 ```
 
 ```html
-search-form--theme--lite (theme = modifier-name | islands = modifier-value)
+<button class="search-form__button search-form__button_disabled">Search</button>
+```
+
+#### Key Value
+
+
+```html
+<form class="search-form search-form_theme_islands">
 ```
 
 ```html
-<input class="search-form__input">
-```
-
-```html
-<input class="search-form__input">
+  <button class="search-form__button search-form__button_size_m">Search</button>
 ```
 
 ## Source
