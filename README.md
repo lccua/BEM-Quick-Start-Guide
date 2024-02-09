@@ -90,13 +90,13 @@ block-name__element-name--modifier-name--modifier-value
 #### Correct Example
 
 ```html
-<form class="search-form search-form_theme_islands">
+<form class="search-form search-form--theme--islands">
 ```
 
 #### Incorrect Example
 
 ```html
-<form class="search-form_theme_islands">
+<form class="search-form--theme--islands">
 ```
 
 
