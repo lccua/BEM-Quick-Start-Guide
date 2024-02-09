@@ -2,9 +2,10 @@
 
 BEM (Block, Element, Modifier) is a methodology designed for developing web interfaces with reusable components. Here's a quick guide to understanding the core concepts of BEM.
 
-## BLOCK
+## Block
 
 ### Explanation
+
 
 - Blocks are independent, reusable components, such as menus or buttons.
 - They are identified by the `class` attribute in HTML.
@@ -14,3 +15,8 @@ BEM (Block, Element, Modifier) is a methodology designed for developing web inte
 
 ```html
 <div class="error"></div>
+
+
+## Source
+- https://en.bem.info/methodology/quick-start/#introduction
+
