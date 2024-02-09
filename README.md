@@ -90,7 +90,7 @@ block-name__element-name--modifier-name--modifier-value
 ```
 ## :exclamation: **Important Notice** :exclamation:
 
-#### A modifier can't be used alone 
+A modifier can't be used alone 
 
 #### Correct Example
 
@@ -102,6 +102,22 @@ block-name__element-name--modifier-name--modifier-value
 
 ```html
 <form class="search-form--theme--islands">
+```
+
+## Mix: Combining BEM Entities
+
+The "Mix" method is a powerful BEM technique that involves applying multiple BEM entities (blocks and elements) to a single DOM node. This approach enables developers to merge behaviors and styles from different entities without code duplication, leading to the creation of new, semantically rich UI components from existing ones.
+
+### Example of Mix Usage
+
+Consider a scenario where we integrate the `search-form` block with the `header__search-form` element within the `header` block:
+
+```html
+<!-- Header Block -->
+<div class="header">
+    <!-- Mixing search-form block with header__search-form element -->
+    <div class="search-form header__search-form"></div>
+</div>
 ```
 
 
