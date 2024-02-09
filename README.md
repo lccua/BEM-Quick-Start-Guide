@@ -85,6 +85,21 @@ block-name__element-name--modifier-name--modifier-value
 ```
 ## :exclamation: **Important Notice** :exclamation:
 
+#### A modifier can't be used alone 
+
+#### Correct Example
+
+```html
+<form class="search-form search-form_theme_islands">
+```
+
+#### Incorrect Example
+
+```html
+<form class="search-form_theme_islands">
+```
+
+
 ## Source
 - https://en.bem.info/methodology/quick-start/#introduction
 
